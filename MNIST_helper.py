@@ -23,7 +23,7 @@ def plot_numbers(x_train, numbers, columns=10, show_label=True, figsize=(20, 5))
         concatenated = np.concatenate((concatenated, create_row(x_train, row)))
     plt.imshow(concatenated, cmap='gray')
     plt.show()
-    
+ 
 def visualize_input(img, ax):
     ax.imshow(img, cmap='gray')
     width, height = img.shape
